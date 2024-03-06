@@ -19,7 +19,8 @@ Enter this in your terminal 👇
 ```
 ## 🕹️ Setup
 ```
-  Clone the repository on your machine and cd into it
+  Clone the repository on your machine and cd into it project directory
+  cd my-app
   npm install
   npm run start
 ```
