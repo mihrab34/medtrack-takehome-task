@@ -1,13 +1,21 @@
 .navbar-column {
     z-index: 2000;
     width: 21%;
-    height: 100%;
+    height: 100vh;
     border-right: 1px solid var(--stroke);
     background-color: var(--white);
     position: fixed;
     left: 0%;
     top: 0%;
     right: auto;
+}
+
+.navbar-toggler {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: none;
 }
 
 .brand-block {
@@ -129,3 +137,39 @@
     left: 0%;
     right: 0%;
 }
+
+
+@media (max-width: 991px) { 
+    .navbar-column {
+        width: 50%;
+        border-right-style: none;
+        box-sizing: border-box;
+    }
+
+    .navbar-content-wrapper {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .brand-block{
+        width: 100%;
+    }
+
+    .nav-user-profile {
+        width: 100%;
+        padding-right: 24px;
+    }
+
+    .navbar-menu-wrapper {
+        border-right: 1px rgba(0, 0, 0, 0);
+        padding-bottom: 96px;
+    }
+
+    .navbar-menu-base {
+        width: 90%;
+        border-radius: 8px;
+        padding-bottom: 16px;
+        padding-right: 24px;
+        position: relative;
+        left: 5%;
+    }
+  }

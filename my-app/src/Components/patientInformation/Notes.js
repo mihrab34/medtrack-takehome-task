@@ -1,0 +1,11 @@
+import React from 'react'
+
+const Notes = ({ content }) => {
+    return (
+                <div className='sidebar-diagnosis-item padding'>
+                    <div className='empty-state'>{content}</div>
+                </div>
+    );
+};
+
+export default Notes

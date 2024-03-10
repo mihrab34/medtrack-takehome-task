@@ -244,3 +244,36 @@
     padding: 4px 12px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
 }
+
+.attachment-block {
+    cursor: pointer;
+    border-radius: 9px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    transition: background-color .2s;
+}
+
+.attachment-icon {
+    width: 42px;
+    height: 42px;
+    float: left;
+    border: 1px solid var(--stroke);
+    background-color: var(--white);
+    border-radius: 6px;
+    flex: none;
+    margin-right: 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+}
+
+.report-label{
+    font-size: 14px;
+    color: var(--primary-font);
+    padding: 0;
+}
+
+.report-size {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: var(--secondary-font);
+}

@@ -3,13 +3,13 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import SideNavbar from './Components/SideNavbar';
-import PatientInformation from './Components/PatientInformation';
+import PatientInformation from './Components/patientInformation/PatientInformation';
 function App() {
   return (
     <div className="App">
       <Router>
         <Row>
-        <Col lg={3} className="">
+        <Col  className="col-md-6">
           <SideNavbar />
         </Col>
         <Col sm={12} md={12} lg={6} className="col-12 col-md-12 col-lg-6">
