@@ -6,6 +6,9 @@
 - React
 - React Bootstrap
 
+## 🛠️ Prerequisites
+Node.js
+
 ## Getting Started
 
 To get a local copy up and running on your machine, follow these simple steps.
@@ -13,10 +16,7 @@ Enter this in your terminal 👇
 ``` 
   git clone https://github.com/mihrab34/medtrack-takehome-task.git
 ``` 
-## 🛠️ Prerequisites
-```
-  Install Node.js on your machine
-```
+
 ## 🕹️ Setup
 ```
   Clone the repository on your machine and cd into it project directory
