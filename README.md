@@ -4,14 +4,14 @@
 
 - JavaScript
 - React
-- Tailwind Css
+- React Bootstrap
 
 ## Getting Started
 
 To get a local copy up and running on your machine, follow these simple steps.
 Enter this in your terminal 👇 
 ``` 
-  git clone https://github.com/mihrab34/Movie-App.git
+  git clone https://github.com/mihrab34/medtrack-takehome-task.git
 ``` 
 ## 🛠️ Prerequisites
 ```
