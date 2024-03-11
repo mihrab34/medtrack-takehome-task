@@ -1,0 +1,58 @@
+.content-container.plan-review {
+    margin-bottom: 16px;
+}
+
+.content-container {
+    width: 100%;
+    border: 1px solid var(--stroke);
+    border-radius: 8px;
+    margin-bottom: 32px;
+    transition: border .2s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+}
+
+.careplan-wrapper.ended {
+    width: 100%;
+}
+
+.careplan-wrapper {
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.review-generated-column {
+    width: 20%;
+    border-right: 1px solid var(--stroke);
+    background-color: var(--white);
+    background-image: linear-gradient(rgba(246, 248, 251, .96), rgba(246, 248, 251, .96)), url('../../public/images/png-transparent-diagonal-lines-pattern.png');
+    background-position: 0 0, 0 0;
+    background-size: auto, 240px;
+}
+
+.careplan-action-column {
+    width: 75%;
+    padding: 24px 24px 16px;
+}
+
+.review-time-stamp-wrapper.careplan {
+    padding-bottom: 8px;
+}
+
+.review-time-stamp-wrapper {
+    padding: 16px;
+}
+
+.review-team-wrapper.careplan {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.review-team-wrapper {
+    padding: 16px;
+}
+
+.careplan-action-column {
+    width: 80%;
+    padding: 24px 24px 16px;
+}

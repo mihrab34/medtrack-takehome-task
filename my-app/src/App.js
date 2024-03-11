@@ -1,26 +1,30 @@
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import { Container, Row, Col } from 'react-bootstrap';
 import SideNavbar from './Components/SideNavbar';
 import PatientInformation from './Components/patientInformation/PatientInformation';
+import CarePlan from './Components/carePlan/CarePlan';
 function App() {
   return (
     <div className="App">
       <Router>
-        <Row>
-        <Col  className="col-md-6">
-          <SideNavbar />
-        </Col>
-        <Col sm={12} md={12} lg={6} className="col-12 col-md-12 col-lg-6">
-          {/* Content for the main section */}
-        </Col>
-        <Col sm={12} md={12} lg={3} className="d-none d-lg-block">
-          <PatientInformation />
-        </Col>
-      </Row>
+        <Container fluid>
+          <Row>
+            {/* SideNavbar */}
+            <Col sm={4} md={3} lg={2}>
+              <SideNavbar />
+            </Col>
+            {/* CarePlan (Main Content) */}
+            <Col sm={8} md={6} lg={8}>
+              <CarePlan />
+            </Col>
+            {/* PatientInformation */}
+            <Col sm={12} md={3} lg={2} className="d-none d-md-block">
+              <PatientInformation />
+            </Col>
+          </Row>
+        </Container>
       </Router>
-      
     </div>
   );
 }
