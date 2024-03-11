@@ -19,7 +19,7 @@ function App() {
               <CarePlan />
             </Col>
             {/* PatientInformation */}
-            <Col sm={12} md={3} lg={2} className="d-none d-md-block">
+            <Col sm={12} md={3} lg={2} className="d-none d-lg-block">
               <PatientInformation />
             </Col>
           </Row>

@@ -56,3 +56,86 @@
     width: 80%;
     padding: 24px 24px 16px;
 }
+
+.careplan-avatar {
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--stroke);
+    background-color: var(--white);
+    background-image: url('../../public/images/ic-careplan.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    border-radius: 50%;
+    flex: none;
+    margin-right: 16px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .05);
+}
+
+.patient-name {
+    color: var(--primary-font);
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.secondary-label {
+    margin-top: 2px;
+    color: var(--secondary-font);
+}
+
+.data-stamp {
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.review-updated.ongoing {
+    color: #044b2d;
+    background-color: #d0f3e4;
+    border-style: none;
+    border-color: #009959;
+    margin-top: 0;
+}
+
+.review-updated {
+    box-shadow: none;
+    color: #7a4a02;
+    cursor: pointer;
+    background-color: #fff8e7;
+    border-radius: 6px;
+    margin-left: 8px;
+    padding: 1px 6px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.text-block {
+    border: 1px solid var(--stroke);
+    color: var(--primary-font);
+    border-radius: 5px;
+    margin-left: 8px;
+    padding: 1px 6px;
+    font-size: 12px;
+    line-height: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+}
+
+.button-primary.title-copy {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.button-primary {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #3952a6;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 400;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
+    text-decoration: none;
+}
