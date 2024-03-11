@@ -6,7 +6,7 @@ const CarePlanAction = () => {
   return (
     <div className="row">
       <div className="col-4">
-        <div href="#" className="careplan-list">
+        <div href="#" className="careplan-list d-flex justify-content-start align-items-start">
           <div className="careplan-avatar"></div>
           <div className="detail-list-block careplan">
             <div className="patient-name">

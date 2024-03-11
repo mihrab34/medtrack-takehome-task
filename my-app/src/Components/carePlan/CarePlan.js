@@ -1,13 +1,12 @@
-import React from 'react'
-import CarePlanList from './CarePlanList'
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import '../../styles/careplan.css';
-import '../../styles/patientinformation.css'
+import '../../styles/patientinformation.css';
+import CarePlanList from './CarePlanList';
 
 const CarePlan = () => {
   return (
     <div className='content-column'>
-      <Container>
         <div className='title-bar'>
           <div className='title-bar-block'>
             <a href='#patient' className='nav-icon back'>
@@ -17,6 +16,7 @@ const CarePlan = () => {
             </div>
           </div>
         </div>
+        <Container>
       <CarePlanList/>
       </Container>
       </div>

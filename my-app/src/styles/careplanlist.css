@@ -57,6 +57,11 @@
     padding: 24px 24px 16px;
 }
 
+.careplan-list {
+    padding-bottom: 16px;
+    transition: all .15s;
+}
+
 .careplan-avatar {
     width: 42px;
     height: 42px;

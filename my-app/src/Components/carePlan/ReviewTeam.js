@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 
 const ReviewTeam = ({key}) => {
   return (
     <Accordion>
-      <Accordion.Item eventKey={key} flush>
+      <Accordion.Item eventKey="0">
         <Accordion.Header>Expand</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
