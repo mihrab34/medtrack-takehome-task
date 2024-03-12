@@ -1,5 +1,4 @@
 .navbar-column {
-    z-index: 2000;
     width: 21%;
     height: 100vh;
     border-right: 1px solid var(--stroke);
@@ -18,7 +17,7 @@
 }
 
 .brand-block {
-    width: 21%;
+    width: 100%;
     height: 60px;
     color: var(--white);
     text-align: center;
@@ -130,7 +129,7 @@
     background-color: var(--bkg);
     box-shadow: none;
     margin-top: 16px;
-    padding: 16px 24px 16px 32px;
+    padding: 22px 24px 22px 32px;
     position: fixed;
     bottom: 0%;
     left: 0%;
@@ -141,11 +140,12 @@
 @media (max-width: 991px) { 
     .navbar-column {
         width: 50%;
-        border-right-style: none;
+        border-right: none;
         box-sizing: border-box;
     }
 
     .navbar-content-wrapper {
+        width: 100%;
         background-color: rgba(0, 0, 0, 0);
     }
 
@@ -158,17 +158,20 @@
         padding-right: 24px;
     }
 
+    .nav-link {
+        font-size: 16px;
+    }
+
     .navbar-menu-wrapper {
-        border-right: 1px rgba(0, 0, 0, 0);
         padding-bottom: 96px;
+        padding-left: 0;
     }
 
     .navbar-menu-base {
-        width: 90%;
+        width: 45%;
         border-radius: 8px;
         padding-bottom: 16px;
-        padding-right: 24px;
         position: relative;
-        left: 5%;
+        left: 0%;
     }
   }

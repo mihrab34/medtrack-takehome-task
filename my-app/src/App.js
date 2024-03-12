@@ -1,9 +1,9 @@
-import './App.css';
+import { Col, Container, Row } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap';
+import './App.css';
 import SideNavbar from './Components/SideNavbar';
-import PatientInformation from './Components/patientInformation/PatientInformation';
 import CarePlan from './Components/carePlan/CarePlan';
+import PatientInformation from './Components/patientInformation/PatientInformation';
 function App() {
   return (
     <div className="App">
@@ -11,7 +11,7 @@ function App() {
         <Container fluid>
           <Row>
             {/* SideNavbar */}
-            <Col sm={4} md={3} lg={2}>
+            <Col sm={12} md={3} lg={2}>
               <SideNavbar />
             </Col>
             {/* CarePlan (Main Content) */}
@@ -19,7 +19,7 @@ function App() {
               <CarePlan />
             </Col>
             {/* PatientInformation */}
-            <Col sm={12} md={3} lg={2} className="d-none d-lg-block">
+            <Col lg={2} className="d-none d-lg-block">
               <PatientInformation />
             </Col>
           </Row>

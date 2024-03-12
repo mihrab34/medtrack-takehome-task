@@ -57,14 +57,14 @@ const SideNavbar = () => {
                   src='images/ic-settings.svg'
                 />Settings</Nav.Link>
               </Nav>
-              <div className="navbar-menu-base d-flex flex-column align-items-start">
-                <div href="#" data-w-id="b73d2596-370f-6339-6ccc-649fdf28642e" className="logout-link ">
-                  <div className="menu-icon logout"></div>
+              <div className="navbar-menu-base d-flex flex-column align-items-start justify-content-between">
+                <div href="#" className="logout-link d-flex justify-content-center mr-2 align-items-center mb-4 ">
+                  <div className="menu-icon logout pr-4"><img src="images/ic-logout-hover.svg" loading="lazy" alt="" class="support-icon" /></div>
                   <div className="navbar-label">Log out</div>
                 </div>
-                <Link to="#" class="support-block">
-                  <div class="support-icon-block"><img src="images/ic-feedback.svg" loading="lazy" alt="" class="support-icon" /></div>
-                  <div class="support-h2">Feedback</div>
+                <Link to="#" className="support-block d-flex justify-content-center align-items-center">
+                  <div className="support-icon-block pr-4"><img src="images/ic-feedback.svg" loading="lazy" alt="" class="support-icon" /></div>
+                  <div className="support-h2">Feedback</div>
                 </Link>
               </div>
             </div>
