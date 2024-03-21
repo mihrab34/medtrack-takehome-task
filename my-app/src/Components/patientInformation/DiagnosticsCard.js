@@ -1,10 +1,12 @@
-import React from 'react'
-const DiagnosticsCard = ({ diagnostics, timestamp }) => {
+import React from 'react';
+const DiagnosticsCard = ({ diagnostics }) => {
     return (
-        <div className='sidebar-diagnosis-item padding diagnostics'>
-            {diagnostics.map((diagnosis, index) => (
-                <p key={index} className='diagnostics-added'>{diagnosis}</p>
-            ))}
+        <div className="sidebar-wrapper padding diagnostics w-clearfix">
+            <div className="diagnostics-added">
+                {diagnostics.map((diagnosis, index) => (
+                    <div key={index} className="diagnostic-label">{diagnosis}</div>
+                ))}
+            </div>
         </div>
     );
 };

@@ -1,18 +1,14 @@
-import React from 'react'
+import React from 'react';
 import EncounterBlock from './EncounterBlock';
 
 const PhysicianBlock = ({ name, label }) => {
     return (
-        <div className='side-visit-record'>
-            <div className='side-physician-block'>
-                <p className='side-physician'>{name}</p>
-                <p className='side-physician-label'>{label}</p>
+        <div className="sidebar-visit-record">
+            <div className="sidebar-physician-block w-clearfix">
+                <div className="sidebar-physician-h1">{name}</div>
+                <div className="pill-label">{label}</div>
             </div>
-
-            {/* Link to encounter */}
             <EncounterBlock
-                href='#'
-                iconSrc='images/file-05.svg'
                 name='Encounter At D.L Hospital'
                 date='28th Jan 2023'
             />

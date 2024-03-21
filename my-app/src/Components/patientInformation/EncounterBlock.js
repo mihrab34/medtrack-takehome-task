@@ -1,15 +1,14 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from 'react';
 
-const EncounterBlock = ({ href, iconSrc, name, date }) => {
+const EncounterBlock = ({ name, date }) => {
     return (
-        <Link to={href} className='d-flex justify-content-start align-items-start encounter-block side'>
-            <img src={iconSrc} alt='file' className='encounter-icon' />
-            <div className='detail-block'>
-                <p className='detail-name'>{name}</p>
-                <p className='detail-date'>{date}</p>
+        <a href="#" class="encounter-list-block sidebar w-inline-block w-clearfix">
+            <div class="encounter-icon sidebar"></div>
+            <div class="detail-list-block">
+              <div class="encounter-name">{name}</div>
+              <div class="encounter-date">{date}</div>
             </div>
-        </Link>
+          </a>
     );
 };
 

@@ -1,15 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const PatientProfile = ({ name, id, avatarSrc }) => {
+const PatientProfile = ({ name, id}) => {
     return (
-        <div className='patient-side-profile w-100 flex-column align-items-center justify-content-start'>
-            <img
-                src={avatarSrc}
-                alt='user avatar'
-                className='patient-avatar'
-            />
-            <p className='patient-name'>{name}</p>
-            <p className='patient-id'>{id}</p>
+        <div className="patient-side-profile w-clearfix">
+          <div className="patient-profile-avatar henry"></div>
+          <div className="patient-info-block">
+            <div className="patient-name">{name}</div>
+            <div className="patient-id">{id}<a href="https://medtrack-nurse-dashboard.webflow.io/#"><br/></a>
+            </div>
+          </div>
         </div>
     );
 };

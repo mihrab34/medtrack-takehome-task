@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Notes = ({ content }) => {
     return (
-                <div className='sidebar-diagnosis-item padding'>
-                    <div className='empty-state'>{content}</div>
-                </div>
+        <div className="sidebar-wrapper padding">
+        <div className="empty-state">
+          <div className="empty-state-label-h2">{content}</div>
+        </div>
+      </div>
     );
 };
 

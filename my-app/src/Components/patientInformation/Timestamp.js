@@ -1,10 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Timestamp = ({ timestamp }) => {
     return (
-        <div className='sidebar-time-stamp card-title'>
-            {timestamp}
-        </div>
+        <div class="sidebar-time-stamp diagnosis">{timestamp}</div>
     );
 };
 
