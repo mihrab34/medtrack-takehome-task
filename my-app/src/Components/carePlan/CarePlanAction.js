@@ -18,17 +18,17 @@ const CarePlanAction = () => {
         </div>
       </div>
       <div className="col-4">
-        <div className="data-stamp d-flex">
+        <div className="data-stamp d-flex mr-6">
           <div className="secondary-label">Last<br/> updated</div>
           <div className="review-updated ongoing">Ongoing</div>
         </div>
-        <div className="data-stamp d-flex">
+        <div className="data-stamp d-flex mr-6">
           <div className="secondary-label">Updated by</div>
           <div className="text-block">Sandra</div>
         </div>
       </div>
       <div className="col-4">
-      <Link href="#" className="button-primary title-copy ">Continue</Link>
+      <Link href="#" className="button-primary title-copy">Continue</Link>
       </div>
     </div>
   );
