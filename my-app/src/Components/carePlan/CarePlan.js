@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/main.css';
 import CarePlanList from './CarePlanList';
 
-const CarePlan = () => {
+const CarePlan = ({handleButtonClick}) => {
   return (
     <div className="content-column sidebar">
       <div className="container sidebar">
@@ -90,7 +90,7 @@ const CarePlan = () => {
                     </div>
                   </div>
                   <div id="w-node-_85afbe05-42b3-7846-6bd8-f8267627a114-9d17ef24" className="expand-review">
-                    <a href="#" data-w-id="fdfe12d8-0cdd-c517-62cf-523981699d03" className="button-primary title-copy w-button">Continue</a>
+                    <a href="/" data-w-id="fdfe12d8-0cdd-c517-62cf-523981699d03" className="button-primary title-copy w-button" onClick={handleButtonClick}>Continue</a>
                   </div>
                 </div>
               </div>
