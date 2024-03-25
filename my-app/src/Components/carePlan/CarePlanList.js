@@ -1,97 +1,29 @@
 import React from 'react';
-import '../../styles/careplanlist.css';
 import CarePlanAction from './CarePlanAction';
+import Review from './Review';
 import ReviewTeam from './ReviewTeam';
 
 const CarePlanList = () => {
   return (
-    <>
-    <div className='content-container plan-review justify-content-between'>
-      <div className='careplan-wrapper ended d-flex'>
-        <div className='review-generated-column'>
-          <div className='review-time-stamp-wrapper careplan'>
-            <p className='review-team-label-copy'>Review generated at</p>
-            <p class="review-time-stamp">7:30 PM</p>
+    <div className="content-container plan-review">
+      <div className="careplan-wrapper ended">
+        <div className="review-generated-column">
+          <div className="review-time-stamp-wrapper careplan">
+            <div className="review-team-label-copy">Review generated at</div>
+            <div className="review-time-stamp">5:45 PM</div>
           </div>
-          <div class="review-team-wrapper careplan">
-                 <ReviewTeam /> 
+          <ReviewTeam />
+          <div className="review-team-wrapper careplan">
+            <div data-w-id="ca54b561-1edd-6346-1838-01266f0a4531" className="exapnad w-clearfix">
+              <div className="diagnosis-record-label">Expand</div>
+              <div className="nav-icon collapse"></div>
+            </div>
           </div>
         </div>
-        <div className='careplan-action-column'>
-          <CarePlanAction />
-        </div>
+        <CarePlanAction />
       </div>
+      <Review />
     </div>
-
-    <div className='content-container plan-review justify-content-between'>
-      <div className='careplan-wrapper ended d-flex'>
-        <div className='review-generated-column'>
-          <div className='review-time-stamp-wrapper careplan'>
-            <p className='review-team-label-copy'>Review generated at</p>
-            <p class="review-time-stamp">7:30 PM</p>
-          </div>
-          <div class="review-team-wrapper careplan">
-                 <ReviewTeam /> 
-          </div>
-        </div>
-        <div className='careplan-action-column'>
-          <CarePlanAction />
-        </div>
-      </div>
-    </div>
-
-    <div className='content-container plan-review justify-content-between'>
-      <div className='careplan-wrapper ended d-flex'>
-        <div className='review-generated-column'>
-          <div className='review-time-stamp-wrapper careplan'>
-            <p className='review-team-label-copy'>Review generated at</p>
-            <p class="review-time-stamp">7:30 PM</p>
-          </div>
-          <div class="review-team-wrapper careplan">
-                 <ReviewTeam /> 
-          </div>
-        </div>
-        <div className='careplan-action-column'>
-          <CarePlanAction />
-        </div>
-      </div>
-    </div>
-
-    <div className='content-container plan-review justify-content-between'>
-      <div className='careplan-wrapper ended d-flex'>
-        <div className='review-generated-column'>
-          <div className='review-time-stamp-wrapper careplan'>
-            <p className='review-team-label-copy'>Review generated at</p>
-            <p class="review-time-stamp">7:30 PM</p>
-          </div>
-          <div class="review-team-wrapper careplan">
-                 <ReviewTeam /> 
-          </div>
-        </div>
-        <div className='careplan-action-column'>
-          <CarePlanAction />
-        </div>
-      </div>
-    </div>
-
-    <div className='content-container plan-review justify-content-between'>
-      <div className='careplan-wrapper ended d-flex'>
-        <div className='review-generated-column'>
-          <div className='review-time-stamp-wrapper careplan'>
-            <p className='review-team-label-copy'>Review generated at</p>
-            <p class="review-time-stamp">7:30 PM</p>
-          </div>
-          <div class="review-team-wrapper careplan">
-                 <ReviewTeam /> 
-          </div>
-        </div>
-        <div className='careplan-action-column'>
-          <CarePlanAction />
-        </div>
-      </div>
-    </div>
-    </>
-    
   )
 }
 

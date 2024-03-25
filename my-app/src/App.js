@@ -1,5 +1,6 @@
 import './App.css';
 import SideNavbar from './Components/SideNavbar';
+import CarePlan from './Components/carePlan/CarePlan';
 import PatientInformation from './Components/patientInformation/PatientInformation';
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
             {/* SideNavbar */}
               <SideNavbar />
             {/* CarePlan (Main Content) */}
-              {/* <CarePlan /> */}
+              <CarePlan />
             {/* PatientInformation */}
               <PatientInformation />
     </div>

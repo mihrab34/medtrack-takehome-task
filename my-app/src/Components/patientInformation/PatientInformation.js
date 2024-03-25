@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/patientinformation.css';
+import '../../styles/main.css';
 import DiagnosisItem from './DiagnosisItem';
 import DiagnosticsCard from './DiagnosticsCard';
 import Notes from './Notes';
