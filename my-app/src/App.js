@@ -6,6 +6,15 @@ import CarePlan from './Components/carePlan/CarePlan';
 import PatientInformation from './Components/patientInformation/PatientInformation';
 function App() {
   const [showCarePlan, setShowCarePlan] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   const handleButtonClick = (e) => {
     e.preventDefault();
@@ -14,9 +23,9 @@ function App() {
 
   return (
     <div className="section">
-      <SideNavbar />
+      <SideNavbar menuOpen={menuOpen} closeMenu={closeMenu} />
       {/*(Main Content) */}
-      {showCarePlan ? <CarePlan handleButtonClick={handleButtonClick} /> : <CarePlanAction />}
+      {showCarePlan ? <CarePlan handleButtonClick={handleButtonClick} toggleMenu={toggleMenu} /> : <CarePlanAction />}
       <PatientInformation />
       {/* {showCarePlan ? null : <CarePlanDetails />} */}
     </div>

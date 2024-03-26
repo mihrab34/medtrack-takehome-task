@@ -2,14 +2,14 @@ import React from 'react';
 import '../../styles/main.css';
 import CarePlanList from './CarePlanList';
 
-const CarePlan = ({handleButtonClick}) => {
+const CarePlan = ({handleButtonClick, toggleMenu}) => {
   return (
     <div className="content-column sidebar">
       <div className="container sidebar">
         <div className="title-bar sidebar review">
           <div className="title-bar-block review-detials">
             <div className="title-bar-block review-bar">
-              <div data-w-id="4415eedb-f0b9-bb57-e355-13ea7e9cdd36" className="navbar-menu-button"><img src="images/menu-03.svg" loading="lazy" alt="" className="navbar-menu-icon" /></div>
+              <div data-w-id="4415eedb-f0b9-bb57-e355-13ea7e9cdd36" className="navbar-menu-button" onClick={toggleMenu}><img src="images/menu-03.svg" loading="lazy" alt="" className="navbar-menu-icon" /></div>
               <a href="in-patients.html" className="nav-icon back w-inline-block"></a>
               <div className="title-grid-block">
                 <div className="nav-title-h1">Care Plan</div>
@@ -90,7 +90,7 @@ const CarePlan = ({handleButtonClick}) => {
                     </div>
                   </div>
                   <div id="w-node-_85afbe05-42b3-7846-6bd8-f8267627a114-9d17ef24" className="expand-review">
-                    <a href="/" data-w-id="fdfe12d8-0cdd-c517-62cf-523981699d03" className="button-primary title-copy w-button" onClick={handleButtonClick}>Continue</a>
+                    <a href="/" data-w-id="fdfe12d8-0cdd-c517-62cf-523981699d03" className="button-primary title-copy w-button animate__animated animate__shakeX" onClick={handleButtonClick}>Continue</a>
                   </div>
                 </div>
               </div>

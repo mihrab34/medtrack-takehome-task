@@ -1,14 +1,15 @@
 import React from 'react';
 import '../styles/main.css';
 
-const SideNavbar = () => {
+const SideNavbar = ({menuOpen, closeMenu}) => {
+  
   return (
-    <div className="navbar-column">
+    <div className={`navbar-column ${menuOpen ? 'menu-open' : ''}`} >
       <div className="navbar-content-wrapper">
         <div className="brand-block w-clearfix">
           <a href="#" className="brand-icon w-inline-block"></a>
           <div className="logo">MedTrack</div>
-          <div data-w-id="ac4171e1-5965-14f1-a658-ebd41c98be49" className="navbar-menu-close"><img src="images/menu-03.svg" loading="lazy" alt="" className="navbar-menu-icon" /></div>
+          <div data-w-id="ac4171e1-5965-14f1-a658-ebd41c98be49" className="navbar-menu-close" onClick={closeMenu}><img src="images/menu-03.svg" loading="lazy" alt="" className="navbar-menu-icon" /></div>
         </div>
         <div className="nav-user-profile">
           <a href="#" className="user-avatar w-inline-block"></a>
