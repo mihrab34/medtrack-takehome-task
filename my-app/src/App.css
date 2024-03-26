@@ -248,6 +248,9 @@
     padding-bottom: 180px;
     position: relative;
     overflow: auto;
+    /* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
   }
   
   .navbar-column {
@@ -595,6 +598,9 @@
     padding: 4px;
     display: flex;
     overflow: hidden;
+    /* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
   }
   
   .component-body {
@@ -768,6 +774,9 @@
   
   .content-container.care-plan {
     overflow: hidden;
+    /* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
   }
   
   .content-container.crumps {
@@ -838,6 +847,9 @@
     left: 0;
     right: 0;
     overflow: auto;
+    /* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
   }
   
   .data-container.careplan-canvas {
@@ -1584,6 +1596,9 @@
     left: auto;
     right: 0%;
     overflow: auto;
+    /* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
   }
   
   .content-container-track {

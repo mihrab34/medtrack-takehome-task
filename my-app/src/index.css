@@ -30,7 +30,14 @@ body {
 	box-sizing: border-box;
 	overflow: hidden;
 	font-family: "Inter", sans-serif;
+	/* Hide scrollbar for IE, Edge and Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
 }
+body::-webkit-scrollbar {
+	display: none;
+  }
+  
 ol, ul {
 	list-style: none;
 }
