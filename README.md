@@ -2,9 +2,9 @@
 
 ## ⚒️  Built with
 
+- CSS
 - JavaScript
 - React
-- React Bootstrap
 
 ## 🛠️ Prerequisites
 Node.js
