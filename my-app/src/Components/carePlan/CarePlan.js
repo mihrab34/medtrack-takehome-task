@@ -90,7 +90,7 @@ const CarePlan = ({handleButtonClick, toggleMenu}) => {
                     </div>
                   </div>
                   <div id="w-node-_85afbe05-42b3-7846-6bd8-f8267627a114-9d17ef24" className="expand-review">
-                    <a href="/" data-w-id="fdfe12d8-0cdd-c517-62cf-523981699d03" className="button-primary title-copy w-button animate__animated animate__shakeX" onClick={handleButtonClick}>Continue</a>
+                    <a href="/" data-w-id="fdfe12d8-0cdd-c517-62cf-523981699d03" className="button-primary title-copy shake-vertical w-button" onClick={handleButtonClick}>Continue</a>
                   </div>
                 </div>
               </div>

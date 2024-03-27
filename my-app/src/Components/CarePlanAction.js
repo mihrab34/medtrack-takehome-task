@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/main.css';
 
-const CarePlanAction = () => {
+const CarePlanAction = ({showRecords}) => {
     return (
         <div className="content-column sidebar">
             <div className="container sidebar">
@@ -67,7 +67,7 @@ const CarePlanAction = () => {
                                         <div className="vital-record-label">Recent record at 8:30 AM</div>
                                         <div className="nav-icon forward vitals"></div>
                                     </div>
-                                    <a href="#" data-w-id="0a8ea100-be08-8ee5-a4b9-66c26acd165e" className="button-primary confirm vitals w-button">Record Vitals</a>
+                                    <a href="#" data-w-id="0a8ea100-be08-8ee5-a4b9-66c26acd165e" className="button-primary confirm vitals w-button" onClick={showRecords}>Record Vitals</a>
                                 </div>
                             </div>
                         </div>

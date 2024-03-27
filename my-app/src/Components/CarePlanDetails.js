@@ -12,7 +12,7 @@ const CarePlanDetails = () => {
 
     return (
         <>
-            <div  className="modal-capture-vitals">
+            <div style={inlineStyle} className="modal-capture-vitals">
                 <div className="modal-block medication">
                     <div className="modal-title-block w-clearfix">
                         <div className="heading-title">Patient vitals</div>
@@ -91,7 +91,7 @@ const CarePlanDetails = () => {
                     </div>
                 </div>
             </div>
-            <div  className="modal-vital-records">
+            <div style={inlineStyle} className="modal-vital-records">
                 <div className="modal-block vitals">
                     <div className="modal-title-block w-clearfix">
                         <div className="heading-title">Vitals</div>
@@ -537,7 +537,7 @@ const CarePlanDetails = () => {
                     </div>
                 </div>
             </div>
-            <div  className="modal-medication-records">
+            <div style={inlineStyle} className="modal-medication-records">
                 <div className="modal-block medication">
                     <div className="modal-title-block w-clearfix">
                         <div className="heading-title">Medication History</div>
@@ -773,7 +773,7 @@ const CarePlanDetails = () => {
                     </div>
                 </div>
             </div>
-            <div  className="modal-medication-schedule">
+            <div style={inlineStyle} className="modal-medication-schedule">
                 <div className="modal-block medication-schedule">
                     <div className="review-modal-details schedule">
                         <div className="pill-wrapper">
@@ -1126,7 +1126,7 @@ const CarePlanDetails = () => {
                     </div>
                 </div>
             </div>
-            <div  className="modal-schedule-chart-status">
+            <div style={inlineStyle} className="modal-schedule-chart-status">
                 <div className="modal-block chart-options">
                     <div className="modal-title-block w-clearfix">
                         <div className="heading-title">Chart status</div>

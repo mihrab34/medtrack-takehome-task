@@ -46,7 +46,7 @@ const SideNavbar = ({menuOpen, closeMenu}) => {
               <div className="menu-icon logout"></div>
               <div className="navbar-label">Log out</div>
             </div>
-            <a href="#" className="support-block w-inline-block">
+            <a href="#" className="support-block">
               <div className="support-icon-block"><img src="images/ic-feedback.svg" loading="lazy" alt="" className="support-icon" /></div>
               <div className="support-info-block">
                 <div className="support-h1">Bugs &amp; feedback report</div>
